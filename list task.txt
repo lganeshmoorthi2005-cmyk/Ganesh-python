@@ -1,0 +1,50 @@
+num=int(input("enter the number"))
+b=[]
+for i in range(num):
+    c=input("enter the no")
+    b.append(c)
+print(b)
+a=[50,60,70,80,90]
+a.append(60)
+print(a)
+a.extend([10,20,30])
+print(a)
+a.insert(2,10)
+print(a)
+a.pop()
+print(a)
+a.remove(50)
+print(a)
+del a[2]
+print(a)
+a.count(5)
+print(a)
+a=[70,40,90,20,10]
+n=len(a)
+for i in range(n):
+    for j in range(i+1,n):
+        if a[i]>a[j]:
+            temp=a[i]
+            a[i]=a[j]
+            a[j]=temp
+print("sort a list ascending:",a)
+n=len(a)
+for i in range(n):
+    for j in range(i+1,n):
+        if a[i]<a[j]:
+            temp=a[i]
+            a[i]=a[j]
+            a[j]=temp
+print("sort a list decending:",a)
+a.reverse()
+print(a)
+print("positive:",a[1])
+print("negative:",a[-2])
+a=[2,3,4,5,6,]
+print("slice:",a[2:4:1])
+
+
+
+
+
+
