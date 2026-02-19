@@ -1,0 +1,154 @@
+'''a=20
+b=40
+if a<b:
+    print("smallest no",a)
+else:
+    print("its not small no",b)'''
+'''a=50
+b=20
+if a>b:
+    print("largest number",a)
+else:
+    print("its not largest number",b)'''
+'''num=int(input("enter the number:"))
+print(abs(num))'''
+'''num=int(input("enter the number:"))
+if num%2==0:
+    print("even number")
+else:
+    print("odd number")'''
+'''num=int(input("enter the number:"))
+if num%5==0:
+    print("mul of 5")
+else:
+    print("not mul of 5")'''
+'''num=int(input("enter the number:"))
+if num%10==0:
+    print("mul of 10")
+else:
+    print("not mul of 10")'''
+'''a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+if a-b==0:
+    print("its zero")
+else:
+    print("its not zero")'''
+'''num = int(input("Enter a number: "))
+n=abs(num)
+
+if n >= 10 and n <= 99:
+    print("It is a two-digit number")
+else:
+    print("It is not a two-digit number")'''
+'''num = int(input("Enter a number: "))
+mark=50
+if num>=mark:
+    print("pass in the subject")
+else :
+    print("fail in the subject")'''
+'''num = int(input("Enter a number: "))
+if num**2:
+    print("above 50")
+else :
+    print("below 50")'''
+'''num=int(input("enter the number:"))
+if num%10==0:
+    print("div of 10")
+else:
+    print("not div of 10")'''
+'''num = int(input("Enter a number: "))
+if num % 10 == 0:
+    print(" end with zero")
+else:
+    print("does not end with zero")'''
+'''num = int(input("Enter a number: "))
+if num==1:
+    print("The exam will be easy")
+else:
+    print("The exam will be difficult")'''
+'''num = int(input("Enter a number: "))
+if num==1:
+    print("You can go out and play")
+else:
+    print("You cannot go out and play")'''
+'''a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+if a==b:
+    print("square")
+else:
+    print("rectangle")'''
+'''num=int(input("enter the number:"))
+if num%3==0 or num%5==0:
+    print("mul")
+else:
+    print("not mul")'''
+'''num = int(input("enter the element"))
+
+if 65 <= num <= 90:
+    print("Uppercase alphabet ASCII")
+else:
+    print("Not uppercase alphabet ASCII")'''
+'''num = int(input("enter the element"))
+
+if 97 <= num <= 122:
+    print("Lowercase alphabet ASCII")
+else:
+    print("Not lowercase alphabet ASCII")'''
+'''num = int(input("enter the number"))
+
+if 48 <= num <= 57:
+    print("Numeric character ASCII")
+else:
+    print("Not numeric character ASCII")'''
+'''num = int(input("enter the number"))
+
+if 100 <= num <= 999 and num % 10 == 0:
+    print("Three-digit and multiple of 10")
+else:
+    print("Not satisfying the condition")'''
+'''num = int(input("enter the number"))
+
+if 100 <= num <= 999 and num % 2 == 0 and num % 5 == 0 and num % 10 == 0:
+    print("Three-digit and multiple of 2, 5, and 10")
+else:
+    print("Not satisfying the condition")'''
+'''a = int(input("enter the number"))
+b = int(input("enter the number"))
+if a % 2 == 0 and b % 2 == 0:
+    print(a * b)
+else:
+    print(a + b)'''
+'''n = int(input("enter the number"))
+        
+if n % 7 == 0 or n % 10 == 7:
+    
+            print("Buzz Number")
+else:
+    
+            print("Not Buzz Number")'''
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
